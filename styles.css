@@ -1,0 +1,44 @@
+body {
+    background-color: #FFF7D7;
+    background-image:
+      repeating-linear-gradient(#ccc 0 1px, transparent 1px 100%),
+      repeating-linear-gradient(90deg, #ccc 0 1px, transparent 1px 100%);
+    background-size: 60px 60px;
+  }
+
+  .center {
+    display: grid;
+    place-items: center;
+  }
+
+  p {
+    font-family: consolas;
+    font-size: 20px;
+  }
+
+  .type-animation{
+    border-right: 3px solid black;
+    animation: typist 15s, caret 0.7s infinite step-end;
+  }
+
+  @keyframes caret {
+    0%, 100%{border-color: transparent;}
+    50%{border-color: black;}
+  }
+
+  .pre-wrap {
+    width: 700px;
+  }
+
+  #youtube-icon{
+    font-size:48px;
+    color:red;
+    text-decoration: none;
+  }
+
+  #youtube-icon:hover{
+    font-size:48px;
+    color:rgb(141, 15, 15)
+  }
+
+  
